@@ -10,7 +10,34 @@ body {
 }
 
 h1 {
-    margin: 0 auto 0 auto;
+    font-size: 5.625rem;
+    margin: 0 4 0 auto;
+    margin-top: 50px;
+    color: #66BFBF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #66BFBF;
+    font-weight: normal;
+    
+}
+
+h3 {
+    color: #11999E;
+}
+
+strong {
+    font-style: italic;
+}
+
+hr {
+    border: none;
+    border-top: 10px dotted #EAF6F6;
+    width: 85px;
 }
 
 .pro {
@@ -28,14 +55,61 @@ h1 {
 
 .background {
     padding-top: 30px;
-    background-color: rgb(108, 156, 158);
+    background-color: #EAF6F6;
 }
 
 .my-description {
     font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    margin-top: 0px;
+    margin-bottom: 75px;
+    color: #11999E;
 }
 
-.coffee-cup {
-    width: 150px;
-    padding-top: 25px;
+
+.footer-link {
+    color:  #11999E;
+    margin-left: 20px;
+}
+
+.hello-description {
+    color: #40514E;
+    text-align: center;
+    word-break: break-all;
+}
+
+.skill-row {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    text-align: left;
+    line-height: 2;
+    min-width: 30%;
+    max-width: 30%;
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    margin-top: 60px;
+}
+
+.coffee-img {
+    width: 25%;
+    float: right;
+    margin-left: -20px;
+    margin-top: 45px;
+}
+
+.code-skill-description {
+    clear: right;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    height: 100px;
+    text-align: center;
+    line-height: 25px;
 }
