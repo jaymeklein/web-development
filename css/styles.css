@@ -1,0 +1,115 @@
+.center {
+    margin: 0;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+h1 {
+    font-size: 5.625rem;
+    margin: 0 4 0 auto;
+    margin-top: 50px;
+    color: #66BFBF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 5px;
+    color: #66BFBF;
+    font-weight: normal;
+    
+}
+
+h3 {
+    color: #11999E;
+}
+
+strong {
+    font-style: italic;
+}
+
+hr {
+    border: none;
+    border-top: 10px dotted #EAF6F6;
+    width: 85px;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.bottom-cloud {
+    position: absolute;
+}
+
+.top-cloud {
+    position: relative;
+    left: 200px;
+}
+
+.background {
+    padding-top: 30px;
+    background-color: #EAF6F6;
+}
+
+.my-description {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    margin-top: 0px;
+    margin-bottom: 75px;
+    color: #11999E;
+}
+
+
+.footer-link {
+    color:  #11999E;
+    margin-left: 20px;
+}
+
+.hello-description {
+    color: #40514E;
+    text-align: center;
+    word-break: break-all;
+}
+
+.skill-row {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    text-align: left;
+    line-height: 2;
+    min-width: 30%;
+    max-width: 30%;
+}
+
+.code-img {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    margin-top: 60px;
+}
+
+.coffee-img {
+    width: 25%;
+    float: right;
+    margin-left: -20px;
+    margin-top: 45px;
+}
+
+.code-skill-description {
+    clear: right;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    height: 100px;
+    text-align: center;
+    line-height: 25px;
+}
